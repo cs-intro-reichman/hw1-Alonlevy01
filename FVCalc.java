@@ -6,6 +6,6 @@ public class FVCalc {
 		int years = Integer.parseInt(args[2]) ;
 		double adjRate= 1 + (rate / 100);
 		double FV = CV*Math.pow(adjRate , years);
-		System.out.println("After " + years + " years, $" + (int)CV + " saved at " + rate + "% will yield $" + (int) FV);
+		System.out.println("After " + years + " years, a $" + (int)CV + " saved at " + rate + "% will yield $" + (int) FV);
 	}
 }

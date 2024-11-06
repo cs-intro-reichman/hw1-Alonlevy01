@@ -15,7 +15,9 @@ public class TimeFormat {
 		String ampm = "AM";
         if (hours >= 12) {
 			ampm = "PM" ;
-			hours = hours - 12 ;
+			if (hours != 12){
+				hours = hours - 12 ;
+			}
 		}
 		if (minutes > 9) {
 			System.out.println(hours + ":" + minutes + " " + ampm) ;
