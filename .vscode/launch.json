@@ -38,7 +38,8 @@
             "name": "NumWords",
             "request": "launch",
             "mainClass": "NumWords",
-            "projectName": "hw1-Alonlevy01_39267368"
+            "projectName": "hw1-Alonlevy01_39267368",
+            "args": "8571"
         },
         {
             "type": "java",
