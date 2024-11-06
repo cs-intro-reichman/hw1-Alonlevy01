@@ -15,7 +15,8 @@
             "name": "Ascend",
             "request": "launch",
             "mainClass": "Ascend",
-            "projectName": "hw1-Alonlevy01_39267368"
+            "projectName": "hw1-Alonlevy01_39267368",
+            "args": "100"
         },
         {
             "type": "java",
