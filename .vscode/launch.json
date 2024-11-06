@@ -54,7 +54,8 @@
             "name": "TimeFormat",
             "request": "launch",
             "mainClass": "TimeFormat",
-            "projectName": "hw1-Alonlevy01_39267368"
+            "projectName": "hw1-Alonlevy01_39267368",
+            "args": "13:15"
         }
     ]
 }
