@@ -6,7 +6,7 @@ public class Bill3 {
         double sum = Double.parseDouble(args[3]) ;
         double pay = sum/3 ; 
         pay = Math.ceil(pay) ;
-        System.out.println("Dear " + a + ", " + b + ", and " + c + " pay " + pay + " Shekels each.") ;
+        System.out.println("Dear " + c + ", " + b + ", and " + a + ": pay " + pay + " Shekels each.") ;
     }    
  }
  
